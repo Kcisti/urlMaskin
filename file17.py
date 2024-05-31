@@ -27,5 +27,3 @@ def main():
     target = Doppelgang(url,mask,keyword)
     target.shorten()
     print(f"{Wh} Output url: {Gr}",target.mask())
-
-main()
